@@ -59,7 +59,7 @@ public class TestCsedemo {
         String expactReturnValue = null; // You should put the expect String type value here.
 
         // You should put the parameter here, in such footprint: csedemoImpl.sayHi(String name)
-        String returnValue = csedemoImpl.sayHi(null);
+        String returnValue = csedemoImpl.sayHi("cloud-tsai");
 
         assertEquals(expactReturnValue, returnValue);
     }
